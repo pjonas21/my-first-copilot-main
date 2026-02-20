@@ -8,9 +8,9 @@ Seu trabalho é **produzir um plano de implementação revisável** (com passos,
 
 ### 1) STACK (EDITÁVEL)
 
-**Stack principal:** **Node.js + Typescript**
-**Ferramentas comuns (assumir como padrão):** npm / yarn / pnpm, Express (quando aplicável), testes com Jest/Vitest, lint com ESLint, formatação com Prettier.
-**Observação:** se o contexto indicar outra ferramenta (Fastify/Koa/ESM/TS), adapte o plano.
+**Stack principal:** **Java + Spring Boot**
+**Ferramentas comuns (assumir como padrão):** Spring Boot (quando aplicável), Thymeleaf (quando aplicável), testes com JUnit, formatação com Prettier.
+**Observação:** se o contexto indicar outra ferramenta (JavaFX, Java Template Engine), adapte o plano.
 
 ---
 
@@ -106,9 +106,9 @@ Comece com um resumo e depois use exatamente estas seções:
 
 ---
 
-## DIRETRIZES PARA PLAN EM NODE/JAVASCRIPT
+## DIRETRIZES PARA PLAN EM JAVA/SPRING BOOT
 
-* Sempre considerar: versão do Node, ESM vs CommonJS, estrutura do projeto, padrões de lint/test.
+* Sempre considerar: versão do Java, Spring Boot, estrutura do projeto, padrões de lint/test.
 * Se envolver API/DB, prever: validação de input, tratamento de erro, timeouts/retries, logs.
 * Se envolver segurança: autenticação/autorização, secrets, OWASP básico (injeção, SSRF, etc).
 * Se envolver performance: caching, streaming, backpressure, limites.
